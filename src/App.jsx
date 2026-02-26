@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import FearFreeTabs from './components/FearFreeTabs';
 import Services from './components/Services';
 import Philosophy from './components/Philosophy';
 import Experience from './components/Experience';
@@ -12,6 +13,7 @@ function App() {
     <main className="bg-alabaster min-h-screen">
       <Navbar />
       <Hero />
+      <FearFreeTabs />
       <Services />
       <Philosophy />
       <Experience />

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import heroImage from '../assets/pawsitive-hero.png';
 
 gsap.registerPlugin(useGSAP);
 
@@ -23,7 +24,7 @@ export default function Hero() {
             {/* Background Image - Warm, inviting salon/vet space */}
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat origin-center"
-                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1516222338250-863216ce01ea?q=80&w=2669&auto=format&fit=crop")' }}
+                style={{ backgroundImage: `url(${heroImage})` }}
             ></div>
 
             {/* Warm Gradient Overlay */}
