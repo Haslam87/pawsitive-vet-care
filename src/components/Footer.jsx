@@ -29,9 +29,10 @@ export default function Footer() {
                 <div>
                     <h4 className="uppercase tracking-widest mb-6 text-[#FAF8F5] text-xs">The Address</h4>
                     <address className="not-italic text-[#D4C4B7]/70 space-y-1 mb-8">
-                        Hartlebury Trading Estate<br />
-                        Worcestershire<br />
-                        United Kingdom
+                        Unit 142 Hartlebury Trading Estate<br />
+                        Hartlebury<br />
+                        Kidderminster<br />
+                        DY10 4JB
                     </address>
 
                     <a href="#" className="uppercase tracking-widest text-xs hover:text-[#FAF8F5] transition-colors duration-300">
