@@ -3,6 +3,8 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import aftercareImg from '../assets/aftercare.png';
+import consultationImg from '../assets/consultation.png';
+import procedureImg from '../assets/procedure.png';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -10,12 +12,12 @@ const services = [
     {
         title: "The Consultation",
         desc: "A slow-paced, treat-filled introduction in our dedicated comfort suites, allowing your pet to explore freely.",
-        img: "https://images.unsplash.com/photo-1606425271394-c3ca9aa1fc06?q=80&w=2670&auto=format&fit=crop"
+        img: consultationImg
     },
     {
         title: "The Procedure",
         desc: "Heated mats, calming pheromones, and gentle handling ensure a seamless, anxiety-free medical experience.",
-        img: "https://images.unsplash.com/photo-1628009368231-7bb7cb080d00?q=80&w=2670&auto=format&fit=crop"
+        img: procedureImg
     },
     {
         title: "The Aftercare",
