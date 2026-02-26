@@ -9,7 +9,7 @@ const services = [
     {
         title: "The Consultation",
         desc: "A slow-paced, treat-filled introduction in our dedicated comfort suites, allowing your pet to explore freely.",
-        img: "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c6?q=80&w=2670&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1606425271394-c3ca9aa1fc06?q=80&w=2670&auto=format&fit=crop"
     },
     {
         title: "The Procedure",
@@ -19,7 +19,7 @@ const services = [
     {
         title: "The Aftercare",
         desc: "Recovery in quiet, dimmed enclosures specifically tailored to reduce stress and promote restful healing.",
-        img: "https://images.unsplash.com/photo-1623387641177-e8a49c94a976?q=80&w=2670&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?q=80&w=2670&auto=format&fit=crop"
     }
 ];
 
