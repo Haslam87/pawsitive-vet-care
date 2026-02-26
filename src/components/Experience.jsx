@@ -9,17 +9,17 @@ const panels = [
     {
         title: "The Introduction",
         desc: "A calm, gentle greeting in our sensory-safe reception, allowing your companion to acclimate at their own steady pace.",
-        img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=2669&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c6?q=80&w=2670&auto=format&fit=crop" // Dog at vet looking calm
     },
     {
         title: "The Examination",
         desc: "Comprehensive care delivered with absolute patience, utilizing fear-free techniques to ensure enduring comfort.",
-        img: "https://images.unsplash.com/photo-1628009368231-7bb7cb080d00?q=80&w=2670&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1588696113881-2c9e7eb2479e?q=80&w=2670&auto=format&fit=crop" // Vet examining dog
     },
     {
         title: "The Homeward Bound",
         desc: "Heading home completely relaxed, carrying positive experiences and a tailored wellness plan to keep them thriving.",
-        img: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=2688&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=2688&auto=format&fit=crop" // Happy dog
     }
 ];
 

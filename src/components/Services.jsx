@@ -9,7 +9,7 @@ const services = [
     {
         title: "The Consultation",
         desc: "A slow-paced, treat-filled introduction in our dedicated comfort suites, allowing your pet to explore freely.",
-        img: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?q=80&w=2670&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c6?q=80&w=2670&auto=format&fit=crop"
     },
     {
         title: "The Procedure",
