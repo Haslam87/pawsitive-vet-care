@@ -50,12 +50,9 @@ export default function Experience() {
                 // Next card comes in from the bottom
                 gsap.set(card, { yPercent: 100 });
                 tl.to(card, { yPercent: 0, ease: "none" });
-            }
 
-            // As the NEXT card comes in, the CURRENT card scales down and blurs.
-            // We don't do this for the very last card.
-            if (i < cards.length - 1) {
-                tl.to(card, {
+                // As the NEXT card comes in, the PREVIOUS card scales down and blurs.
+                tl.to(cards[i - 1], {
                     scale: 0.95,
                     opacity: 0.6,
                     filter: 'blur(4px)',

@@ -8,7 +8,7 @@ export default function Footer() {
                 {/* Brand */}
                 <div className="col-span-1 md:col-span-2">
                     <div className="font-serif text-3xl mb-6 text-[#FAF8F5]">
-                        Pawsitive<span className="italic"> Ateliér</span>
+                        Pawsitive
                     </div>
                     <p className="text-[#D4C4B7]/60 max-w-sm">
                         Elevating veterinary care to an art form. A sanctuary where fear is replaced with absolute comfort and trust.
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-7xl mx-auto mt-24 pt-8 border-t border-[#D4C4B7]/10 text-xs text-[#D4C4B7]/40 flex flex-col md:flex-row justify-between items-center">
-                <p>&copy; {new Date().getFullYear()} Pawsitive Ateliér. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Pawsitive. All rights reserved.</p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
                     <a href="#" className="hover:text-[#D4C4B7]">Privacy</a>
                     <a href="#" className="hover:text-[#D4C4B7]">Terms</a>
