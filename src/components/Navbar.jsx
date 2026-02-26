@@ -20,7 +20,7 @@ export default function Navbar() {
         >
             <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Brand */}
-                <div className={`font-serif text-2xl tracking-wide ${isScrolled ? 'text-[#2B221E]' : 'text-[#FAF8F5]'}`}>
+                <div className={`font-serif text-2xl tracking-wide ${isScrolled ? 'text-[#2B221E]' : 'text-[#2B221E]'}`}>
                     Pawsitive
                 </div>
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                         <a
                             key={link}
                             href={`#${link.toLowerCase().replace(' ', '-')}`}
-                            className={`text-sm tracking-widest uppercase transition-colors duration-300 ${isScrolled ? 'text-[#2B221E]/70 hover:text-[#B3704D]' : 'text-[#FAF8F5]/80 hover:text-[#FAF8F5]'
+                            className={`text-sm tracking-widest uppercase transition-colors duration-300 ${isScrolled ? 'text-[#2B221E]/70 hover:text-[#B3704D]' : 'text-[#2B221E]/80 hover:text-[#B3704D]'
                                 }`}
                         >
                             {link}
@@ -42,7 +42,7 @@ export default function Navbar() {
                 <button
                     className={`px-8 py-3 rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300 ${isScrolled
                         ? 'bg-[#B3704D] text-[#FAF8F5] hover:bg-[#2B221E]'
-                        : 'bg-[#FAF8F5] text-[#2B221E] hover:bg-[#D4C4B7]'
+                        : 'bg-[#B3704D] text-[#FAF8F5] hover:bg-[#2B221E]'
                         }`}
                 >
                     Book Appointment
