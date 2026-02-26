@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import aftercareImg from '../assets/aftercare.png';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -19,7 +20,7 @@ const services = [
     {
         title: "The Aftercare",
         desc: "Recovery in quiet, dimmed enclosures specifically tailored to reduce stress and promote restful healing.",
-        img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?q=80&w=2670&auto=format&fit=crop"
+        img: aftercareImg
     }
 ];
 
