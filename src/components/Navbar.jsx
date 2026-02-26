@@ -26,7 +26,7 @@ export default function Navbar() {
 
                 {/* Links */}
                 <nav className="hidden md:flex items-center space-x-10">
-                    {['The Ethos', 'Our Space', 'Treatments'].map((link) => (
+                    {['The Ethos', 'Our Space', 'Treatments', 'Our Team'].map((link) => (
                         <a
                             key={link}
                             href={`#${link.toLowerCase().replace(' ', '-')}`}

@@ -14,7 +14,7 @@ const services = [
     {
         title: "The Procedure",
         desc: "Heated mats, calming pheromones, and gentle handling ensure a seamless, anxiety-free medical experience.",
-        img: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=2688&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1516222338250-863216ce01ea?q=80&w=2669&auto=format&fit=crop"
     },
     {
         title: "The Aftercare",
