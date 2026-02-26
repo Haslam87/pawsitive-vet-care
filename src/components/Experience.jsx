@@ -17,8 +17,8 @@ const panels = [
         img: "https://images.unsplash.com/photo-1628009368231-7bb7cb080d00?q=80&w=2670&auto=format&fit=crop"
     },
     {
-        title: "The Departure",
-        desc: "Leaving feeling entirely relaxed and reassured, with a personalized wellness plan for the years ahead.",
+        title: "The Homeward Bound",
+        desc: "Heading home completely relaxed, carrying positive experiences and a tailored wellness plan to keep them thriving.",
         img: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=2688&auto=format&fit=crop"
     }
 ];
