@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Philosophy from './components/Philosophy';
 import Experience from './components/Experience';
-import Invitation from './components/Invitation';
+import LeadCapture from './components/LeadCapture';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Services />
       <Philosophy />
       <Experience />
-      <Invitation />
+      <LeadCapture />
       <Footer />
     </main>
   );
