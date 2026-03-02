@@ -102,8 +102,8 @@ export default function Navbar() {
                 className={`fixed bottom-0 left-0 w-full z-40 md:hidden transition-transform duration-500 ease-in-out ${isScrolled && !isMenuOpen ? 'translate-y-0' : 'translate-y-full'
                     }`}
             >
-                <div className="bg-[#B3704D] shadow-[0_-4px_20px_rgba(0,0,0,0.1)] pb-[env(safe-area-inset-bottom)]">
-                    <button className="w-full h-16 flex items-center justify-center text-[#FAF8F5] text-sm tracking-widest uppercase font-medium hover:bg-[#2B221E] transition-colors">
+                <div className="bg-[#FAF8F5] shadow-[0_-4px_20px_rgba(0,0,0,0.1)] pb-[env(safe-area-inset-bottom)]">
+                    <button className="w-full h-16 flex items-center justify-center text-[#2B221E] text-sm tracking-widest uppercase font-medium hover:bg-[#D4C4B7]/40 transition-colors">
                         Book Appointment
                     </button>
                 </div>
