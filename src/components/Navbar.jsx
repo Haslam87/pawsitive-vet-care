@@ -40,9 +40,9 @@ export default function Navbar() {
 
                 {/* CTA */}
                 <button
-                    className={`px-8 py-3 rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300 ${isScrolled
-                        ? 'bg-[#B3704D] text-[#FAF8F5] hover:bg-[#2B221E]'
-                        : 'bg-[#B3704D] text-[#FAF8F5] hover:bg-[#2B221E]'
+                    className={`px-6 py-2.5 rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300 border ${isScrolled
+                        ? 'border-[#2E2A26] text-[#2E2A26] hover:bg-[#2E2A26] hover:text-[#FAF8F5]'
+                        : 'border-[#D8C9B6] text-[#FAF8F5] hover:bg-[#D8C9B6] hover:text-[#2E2A26]'
                         }`}
                 >
                     Book Appointment
