@@ -73,29 +73,29 @@ export default function Navbar() {
                         {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
                     </button>
                 </div>
-
-                {/* Mobile Full-Screen Overlay Menu */}
-                <div
-                    className={`fixed inset-0 bg-[#FAF8F5] pt-24 z-40 flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
-                        }`}
-                >
-                    <nav className="flex flex-col items-center space-y-8 mb-12">
-                        {navLinks.map((link) => (
-                            <a
-                                key={link}
-                                href={`#${link.toLowerCase().replace(' ', '-')}`}
-                                onClick={() => setIsMenuOpen(false)}
-                                className="text-3xl font-serif text-[#2B221E] hover:text-[#B3704D] transition-colors"
-                            >
-                                {link}
-                            </a>
-                        ))}
-                    </nav>
-                    <button className="px-8 py-4 bg-[#B3704D] text-[#FAF8F5] rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300 hover:bg-[#2B221E]">
-                        Book Appointment
-                    </button>
-                </div>
             </header>
+
+            {/* Mobile Full-Screen Overlay Menu */}
+            <div
+                className={`fixed inset-0 bg-[#FAF8F5] pt-24 z-40 flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
+                    }`}
+            >
+                <nav className="flex flex-col items-center space-y-8 mb-12">
+                    {navLinks.map((link) => (
+                        <a
+                            key={link}
+                            href={`#${link.toLowerCase().replace(' ', '-')}`}
+                            onClick={() => setIsMenuOpen(false)}
+                            className="text-3xl font-serif text-[#2B221E] hover:text-[#B3704D] transition-colors"
+                        >
+                            {link}
+                        </a>
+                    ))}
+                </nav>
+                <button className="px-8 py-4 bg-[#B3704D] text-[#FAF8F5] rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300 hover:bg-[#2B221E]">
+                    Book Appointment
+                </button>
+            </div>
 
             {/* Mobile Sticky Bottom CTA */}
             <div
