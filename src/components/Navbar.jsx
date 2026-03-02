@@ -99,11 +99,14 @@ export default function Navbar() {
 
             {/* Mobile Sticky Bottom CTA */}
             <div
-                className={`fixed bottom-0 left-0 w-full z-40 md:hidden transition-transform duration-500 ease-in-out ${isScrolled && !isMenuOpen ? 'translate-y-0' : 'translate-y-full'
+                className={`fixed bottom-0 left-0 w-full z-40 md:hidden transition-all duration-300 ease-out ${isScrolled && !isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
                     }`}
             >
-                <div className="bg-[#FAF8F5] shadow-[0_-4px_20px_rgba(0,0,0,0.1)] pb-[env(safe-area-inset-bottom)]">
-                    <button className="w-full h-16 flex items-center justify-center text-[#2B221E] text-sm tracking-widest uppercase font-medium hover:bg-[#D4C4B7]/40 transition-colors">
+                <div className="bg-[#FAF8F5]/95 backdrop-blur-md shadow-[0_-10px_30px_rgba(43,34,30,0.05)] border-t border-[#D4C4B7]/30 pb-[env(safe-area-inset-bottom)] pt-4 px-4 flex flex-col items-center">
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-[#2B221E]/60 mb-3 font-sans">
+                        Ready when you are
+                    </p>
+                    <button className="w-[90%] max-w-[350px] h-12 mb-4 flex items-center justify-center bg-[#B3704D] text-[#FAF8F5] text-sm tracking-widest uppercase font-medium rounded-full shadow-md hover:scale-[0.98] active:scale-95 active:bg-[#9A5F41] transition-all duration-200">
                         Book Appointment
                     </button>
                 </div>
