@@ -39,8 +39,8 @@ export default function Hero() {
                     Veterinary Care
                 </h1>
                 <p className="hero-text font-sans text-lg md:text-xl text-[#FAF8F5]/80 max-w-2xl mx-auto font-light leading-relaxed mb-10">
-                    Welcome to Hartlebury's first certified Fear Free® clinic.
-                    A space designed completely around keeping your anxious companions calm, happy, and inherently safe.
+                    Hartlebury's first certified Fear Free® clinic.<br />
+                    A space designed entirely around keeping anxious pets calm, safe, and comfortable.
                 </p>
                 <div className="hero-text">
                     <button className="bg-[#B3704D] text-[#FAF8F5] hover:bg-[#2B221E] px-8 py-3 rounded-[2rem] text-sm tracking-widest uppercase transition-all duration-300">
