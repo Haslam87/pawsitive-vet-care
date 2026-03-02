@@ -14,7 +14,7 @@ const panels = [
     },
     {
         title: "The Examination",
-        desc: "Comprehensive care delivered with absolute patience, utilizing fear-free techniques to ensure enduring comfort.",
+        desc: "Comprehensive care delivered with absolute patience, utilising fear-free techniques to ensure enduring comfort.",
         img: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?q=80&w=2670&auto=format&fit=crop" // Vet examining dog
     },
     {
