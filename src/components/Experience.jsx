@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import tillyImage from '../assets/gallery_bravery_tilly.jpg';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -19,7 +20,7 @@ const panels = [
     {
         title: "The Homeward Bound",
         desc: "Heading home completely relaxed, carrying positive experiences and a tailored wellness plan to keep them thriving.",
-        img: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=2688&auto=format&fit=crop" // Happy dog
+        img: tillyImage // Happy dog
     }
 ];
 
