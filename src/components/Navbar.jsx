@@ -34,9 +34,9 @@ export default function Navbar() {
                     : 'bg-transparent py-8'
                     }`}
             >
-                <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
+                <div className="relative z-50 max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
                     {/* Brand */}
-                    <div className={`font-serif z-50 text-2xl tracking-wide ${isScrolled || isMenuOpen ? 'text-[#2B221E]' : 'text-[#2B221E]'}`}>
+                    <div className={`font-serif text-2xl tracking-wide ${isScrolled || isMenuOpen ? 'text-[#2B221E]' : 'text-[#2B221E]'}`}>
                         Pawsitive
                     </div>
 
