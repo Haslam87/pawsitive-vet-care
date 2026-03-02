@@ -3,6 +3,8 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import tillyImage from '../assets/gallery_bravery_tilly.jpg';
+import examinationImage from '../assets/examination.png';
+import introImage from '../assets/intro.jpg';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -10,12 +12,12 @@ const panels = [
     {
         title: "The Introduction",
         desc: "A calm, gentle greeting in our sensory-safe reception, allowing your companion to acclimate at their own steady pace.",
-        img: "https://images.unsplash.com/photo-1596797882870-8c33deeac224?q=80&w=2670&auto=format&fit=crop" // Dog at vet looking calm
+        img: introImage // Dog at vet looking calm
     },
     {
         title: "The Examination",
         desc: "Comprehensive care delivered with absolute patience, utilising fear-free techniques to ensure enduring comfort.",
-        img: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?q=80&w=2670&auto=format&fit=crop" // Vet examining dog
+        img: examinationImage // Vet examining dog
     },
     {
         title: "The Homeward Bound",
